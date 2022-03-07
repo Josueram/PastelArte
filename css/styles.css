@@ -253,3 +253,27 @@ input, select {
   font-size: 22px;
   text-align: center;
 }
+.main-pastelero {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(29, 29, 29);
+}
+.contenedor-pedidos p {
+  font-size: 24px;
+  padding-top: 30px;
+  justify-content: center;
+}
+table, th, td {
+  margin: 24px auto;
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+}
+.contenedor-sabores-adornos {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-sabores p, .contenedor-adornos p {
+  padding-bottom: 60px;
+}
