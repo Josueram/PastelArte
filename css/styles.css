@@ -235,6 +235,11 @@ input, select {
 .container-info-aboutUs p {
   font-size: 24px;
 }
+.container-info-aboutUs a {
+  color: white;
+  margin-top: 40px;
+  font-size: 12px;
+}
 .image-chef {
   width: 260px;
   height: 300px;
