@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 80px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: white;
+}
+header img {
+  width: 180px;
+  height: 54px;
+  margin: 13px 50px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header .header-right {
+  display: flex;
+  width: 580px;
+  height: auto;
+  margin-right: 50px;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  width: 100%;
+  height: 95vh;
+}
+main .background-img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  background-image: url("../assets/img/main.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+main h1 {
+  display: flex;
+  position: relative;
+  width: 446px;
+  color: white;
+  font-size: 72px;
+  top: 18%;
+  left: 5%;
+}
+main p {
+  display: flex;
+  position: relative;
+  width: 378px;
+  color: white;
+  font-size: 24px;
+  top: 20%;
+  left: 5%;
+}
+.btn-inicio {
+  display: flex;
+  position: relative;
+  width: 180px;
+  height: 48px;
+  color: black;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 8px;
+  top: 24%;
+  left: 5%;
+}
+.card-cake {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.container-cake {
+  width: 424px;
+  height: 380px;
+  margin: 20px 0px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.img-cake {
+  width: 100%;
+  height: 210px;
+  border-radius: 6px 6px 0px 0px;
+  background-image: url("../assets/img/cake-chocolate.jpeg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.title-info {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 24px 0px 14px 32px;
+}
+.container-cake-info {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.price {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 32px;
+  justify-content: flex-end;
+}
+.decorations {
+  width: 100%;
+  height: 860px;
+  margin-top: 60px;
+  padding: 40px;
+  background-image: url('../assets/img/background.jpeg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  
+  position: relative;
+}
+.card-decoration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container-decoration {
+  width: 424px;
+  height: 324px;
+  margin: 20px 0px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 6px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.img-decoration {
+  width: 100%;
+  height: 210px;
+  border-radius: 6px 6px 0px 0px;
+  background-image: url("../assets/img/velas.jpeg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.container-decoration-info {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.order {
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+}
+.container-form {
+  width: 64%;
+  height: 460px;
+  margin: 24px auto;
+  padding: 60px;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 6px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.25);
+  justify-self: center;
+}
+.container-form p {
+  font-size: 18px;
+}
+input, select {
+  padding: 10px;
+}
+.form {
+  margin-top: 20px;
+}
+.input-medium {
+  width: 360px;
+  height: 40px;
+  margin: 10px 10px 10px 0px;
+}
+.input-large {
+  width: 735px;
+  height: 40px;
+}
+.comentario {
+  height: 80px;
+}
+.btn-form {
+  width: 735px;
+  height: 48px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.about-us {
+  width: 100%;
+  height: 70vh;
+  padding: 60px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+.container-aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-info-aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.container-info-aboutUs p {
+  font-size: 24px;
+}
+.image-chef {
+  width: 260px;
+  height: 300px;
+  background-image: url('../assets/img/person.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.container-contact {
+  width: 100%;
+  height: 30vh;
+  padding: 80px;
+  background-color: white;
+}
+.container-contact p {
+  font-size: 22px;
+  text-align: center;
+}
